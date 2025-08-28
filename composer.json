@@ -1,7 +1,6 @@
 {
     "name": "kriss/spreadsheet-smart-cache",
     "description": "Spreadsheet Smart Cache For Balance memory and speed",
-    "version": "0.0.1",
     "license": "MIT",
     "autoload": {
         "psr-4": {
