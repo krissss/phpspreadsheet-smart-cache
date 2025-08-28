@@ -45,3 +45,7 @@ Redis 和 MemCache 只是把内存的使用转嫁到了别的服务，如果 Spr
 由于 Spreadsheet 并不关心 TTL，因此在处理缓存时可以忽略 TTL 的处理，这也使得我们可以在需要做删除操作时，无需实际处理相关缓存文件，仅在最终处理完整个 Spreadsheet 后将整个缓存目录删除即可。
 
 为了节省磁盘空间，在进行偏移机制处理时，我们进行了 ChunkSize 分块，以达到尽可能不浪费太多空间。
+
+# 开发
+
+[benchmark.php](scripts/benchmark.php) 脚本可以用来看实际效果
