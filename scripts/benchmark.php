@@ -26,7 +26,7 @@ if ($start) {
             'cells' => 'A1:Z20000',
         ],
         [
-            'cells' => 'A1:Z20000',
+            'cells' => 'A1:Z30000',
         ],
         [
             'cells' => 'A1:CZ10000',
