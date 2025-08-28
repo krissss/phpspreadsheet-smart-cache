@@ -2,6 +2,8 @@
 
 一个专为 [PHPSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) 设计的智能缓存机制，用于优化和平衡大文件处理时的内存使用和性能问题。
 
+> 简体中文(zh-cn) | [English](./README_en.md)
+
 # 安装
 
 ```bash
