@@ -1,0 +1,36 @@
+{
+    "name": "kriss/spreadsheet-smart-cache",
+    "description": "Spreadsheet Smart Cache For Balance memory and speed",
+    "version": "0.0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kriss\\SpreadsheetSmartCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kriss <462679766@qq.com>"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpoffice/phpspreadsheet": ">=1.29",
+        "pestphp/pest": "^3.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    }
+}
